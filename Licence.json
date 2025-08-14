@@ -1,2 +1,7 @@
-[{"wld":"test.linkara.xyz"},
-{"wld":"forexawy.online"}]
+[
+  { "wld": "test.linkara.xyz" },
+  { "wld": "forexawy.online" },
+  { "wld": "example1.com" },
+  { "wld": "example2.net" },
+  { "wld": "example3.org" }
+]
