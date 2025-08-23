@@ -35,7 +35,7 @@
             line-height: 1.6;
         }
         
-        /* Animated Background */
+
         .animated-bg {
             position: fixed;
             top: 0;
@@ -70,7 +70,7 @@
             50% { transform: translateY(-20px) rotate(180deg); }
         }
         
-        /* Header */
+
         header {
             position: fixed;
             top: 0;
@@ -120,7 +120,7 @@
             text-shadow: 0 0 10px rgba(115, 0, 255, 0.5);
         }
         
-        /* Hero Section */
+
         .hero {
             min-height: 100vh;
             display: flex;
@@ -247,7 +247,7 @@
             100% { transform: rotateX(360deg) rotateY(360deg); }
         }
         
-        /* Features Section */
+
         .features {
             padding: 5rem 2rem;
             max-width: 1200px;
@@ -317,8 +317,7 @@
             font-size: 1.2rem;
         }
         
-        /* Download Section */
-        .download-section {
+            .download-section {
             background: linear-gradient(135deg, rgba(115, 0, 255, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%);
             padding: 5rem 2rem;
             text-align: center;
@@ -369,7 +368,7 @@
             font-size: 0.9rem;
         }
         
-        /* Footer */
+
         footer {
             background: var(--card-bg);
             padding: 2rem;
@@ -395,8 +394,7 @@
             color: var(--primary-color);
         }
         
-        /* Responsive Design */
-        @media (max-width: 768px) {
+     @media (max-width: 768px) {
             .nav-links {
                 display: none;
             }
@@ -415,7 +413,7 @@
             }
         }
         
-        /* Scroll Animations */
+
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
@@ -560,7 +558,7 @@
     </footer>
     
     <script>
-        // Create floating particles
+
         function createParticles() {
             const container = document.getElementById('particles');
             const particleCount = 50;
@@ -585,7 +583,7 @@
             }
         }
         
-        // Smooth scrolling for navigation links
+   
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -599,7 +597,7 @@
             });
         });
         
-        // Intersection Observer for fade-in animations
+       
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -617,7 +615,7 @@
             observer.observe(el);
         });
         
-        // Header background on scroll
+      
         window.addEventListener('scroll', () => {
             const header = document.querySelector('header');
             if (window.scrollY > 100) {
@@ -627,10 +625,10 @@
             }
         });
         
-        // Initialize particles
+     
         createParticles();
         
-        // Add click effect to buttons
+    
         document.querySelectorAll('.btn').forEach(btn => {
             btn.addEventListener('click', function(e) {
                 const ripple = document.createElement('span');
